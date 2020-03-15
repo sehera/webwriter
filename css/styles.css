@@ -1,0 +1,17 @@
+*, ::before, ::after {box-sizing: border-box;}
+body {
+    background-color: black;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 5px;
+}
+#word {
+    color: white;
+    font-size: 90px;
+    font-family: "Akzidenz-Grotesk" , sans-serif;
+    text-align: center;
+}
